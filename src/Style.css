@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.mainHeading{
+    background-image: url("http://dorsin.react.themesbrand.com/assets/images/bg-home.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(9,9,121);
+background: linear-gradient(90deg, rgba(9,9,121,0.7) 0%, rgba(168,49,231,0.5) 0%, rgba(150,27,184,0.5) 24%, rgba(135,39,190,0.7) 47%);
+  }
+  .nav-link{
+    color: gray;
+    font-weight: 600;
+  }
+  .nav-link:hover{
+    color: aliceblue;
+    transition: 0.4s;
+  }
+  .center-text {
+    text-align: center;
+    padding: 100px 0; /* Adjust the padding as needed */
+  
+  }
+  .main-Text{
+    font-size: 300%;
+  }
+  .Cus-text{
+    color: lightgrey;
+    margin-top: 30px;
+  }
+  .circle-button {
+    
+    width: 50px; /* Adjust the width and height to make the button as large or small as you need */
+    height: 50px;
+    border-radius: 50%; /* This makes the button circular */
+    
+    color: #ffffff; /* Text color */
+    
+    font-size: 16px; /* Adjust the font size as needed */
+    text-decoration: none; /* Remove the underline by default */
+  }
+  .btn-circle{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+  }
+  .gradient-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    background: linear-gradient(90deg, rgba(9,9,121,0.7) 0%, rgba(168,49,231,0.5) 0%, rgba(150,27,184,0.5) 24%, rgba(135,39,190,0.7) 47%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  .card-title{
+    text-align: center;
+  }
+  .card-text{
+    text-align: center;
+color: grey;
+  }
